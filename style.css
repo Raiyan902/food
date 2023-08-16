@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:ital,wght@0,200;1,200&family=Roboto+Slab:wght@300&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+body{
+    height: 100rem;
+}
+.nav {
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 3rem;
+  align-items: center;
+  color: rgb(74, 73, 73);
+  font-weight: 700;
+}
+header div a {
+  text-decoration: none;
+  color: rgb(74, 73, 73);
+}
+
+/* -----------------------------------------------------------------------main section start form hear------------------------------------------------- */
+
+main {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 10rem;
+}
+.border {
+  margin: 1rem;
+}
+.flex1 .border h3 {
+  text-align: center;
+  padding: 1rem;
+}
+.flex1 .border p {
+  text-align: center;
+}
+img {
+  height: 25rem;
+  width: 100%;
+  align-items: center;
+}
+.flex1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+@media (width <= 1200px) {
+  .flex1 {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (width <= 1000px) {
+  .flex1 {
+    grid-template-columns: auto auto;
+  }
+}
+@media (width <= 600px) {
+  .flex1 {
+    grid-template-columns: auto;
+  }
+}
+/*----------------------------------------------- number section start form hear----------------------------------------------------------------- */
+.number{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.number .number-two{
+    padding: 1rem;
+    cursor: pointer;
+}
+.number .number-two:hover{
+    background-color: black;
+    color: white;
+}
+.number .number-two a:visited{
+    color: black;
+}
+.number .number-one{
+    padding: 1rem;
+    cursor: pointer;
+    background-color: rgb(152, 152, 139);
+    color: rgb(54, 14, 216);
+}
+.number .number-one:hover{
+    background-color:black;
+    color: white;
+}
+
+.line{
+    border-bottom: 1px solid rgb(198, 196, 196);
+}
+/*----------------------------------------------------------- third section start from hear----------------------------------------------- */
+.middel_part{
+    /* border: 1px solid red */
+    width: 100%;
+    height: 50rem; 
+    /* padding:2rem ; */
+}
+.food_man{
+    text-align: center;
+    padding: 2rem;
+}
+.food_man h1{
+    padding: 2rem;
+}
+.food_man h3{
+    padding: 1rem;
+}
+.food_man p{
+    padding:.3rem 1rem;
+}
+.man_img{
+    /* border: 1px solid blue; */
+    margin: auto;
+    width: 50rem;
+    height: 30rem;
+}
+@media (width <= 1200px) {
+    .man_img {
+        width: 30rem;
+        height: 20rem;
+    }
+  }
+  @media (width <= 1000px) {
+    .man_img {
+        width: 25rem;
+        height: 17rem;
+    }
+  }
+  @media (width <= 600px) {
+    .man_img {
+        width: 20rem;
+        height: 15rem;
+    }
+  }
+  @media (width <= 400px) {
+    .man_img {
+        width:16rem;
+        height: 10rem;
+    }
+  }
+  @media (width <= 500px) {
+    .man_img {
+        width:18rem;
+        height: 15rem;
+    }
+  }
+.man_img img{
+    width: 100%;
+    height: 100%;
+}
+/* ------------------------------footer part start form hear--------------------------------------------- */
+/* .footer1{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid red;
+  height: 40rem;
+}
+.footer2{
+  border: 1px solid red;
+  height: 20rem;
+  text-align: center;
+}
+.list_1{
+  display: flex;
+} */
